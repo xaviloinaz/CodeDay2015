@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47EA958C1BEED9D500E8E53E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EA958B1BEED9D500E8E53E /* AppDelegate.swift */; };
+		47EA958E1BEED9D500E8E53E /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 47EA958D1BEED9D500E8E53E /* art.scnassets */; };
+		47EA95901BEED9D500E8E53E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EA958F1BEED9D500E8E53E /* GameViewController.swift */; };
+		47EA95931BEED9D500E8E53E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47EA95911BEED9D500E8E53E /* Main.storyboard */; };
+		47EA95951BEED9D500E8E53E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47EA95941BEED9D500E8E53E /* Assets.xcassets */; };
+		47EA95981BEED9D500E8E53E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47EA95961BEED9D500E8E53E /* LaunchScreen.storyboard */; };
+		47EA95A31BEED9D500E8E53E /* TransBlitzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EA95A21BEED9D500E8E53E /* TransBlitzTests.swift */; };
+		47EA95AE1BEED9D500E8E53E /* TransBlitzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EA95AD1BEED9D500E8E53E /* TransBlitzUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47EA959F1BEED9D500E8E53E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47EA95801BEED9D500E8E53E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47EA95871BEED9D500E8E53E;
+			remoteInfo = TransBlitz;
+		};
+		47EA95AA1BEED9D500E8E53E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47EA95801BEED9D500E8E53E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47EA95871BEED9D500E8E53E;
+			remoteInfo = TransBlitz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47EA95881BEED9D500E8E53E /* TransBlitz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransBlitz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47EA958B1BEED9D500E8E53E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47EA958D1BEED9D500E8E53E /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		47EA958F1BEED9D500E8E53E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		47EA95921BEED9D500E8E53E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47EA95941BEED9D500E8E53E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47EA95971BEED9D500E8E53E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47EA95991BEED9D500E8E53E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47EA959E1BEED9D500E8E53E /* TransBlitzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransBlitzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47EA95A21BEED9D500E8E53E /* TransBlitzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransBlitzTests.swift; sourceTree = "<group>"; };
+		47EA95A41BEED9D500E8E53E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47EA95A91BEED9D500E8E53E /* TransBlitzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransBlitzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47EA95AD1BEED9D500E8E53E /* TransBlitzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransBlitzUITests.swift; sourceTree = "<group>"; };
+		47EA95AF1BEED9D500E8E53E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47EA95851BEED9D500E8E53E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47EA959B1BEED9D500E8E53E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47EA95A61BEED9D500E8E53E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47EA957F1BEED9D500E8E53E = {
+			isa = PBXGroup;
+			children = (
+				47EA958A1BEED9D500E8E53E /* TransBlitz */,
+				47EA95A11BEED9D500E8E53E /* TransBlitzTests */,
+				47EA95AC1BEED9D500E8E53E /* TransBlitzUITests */,
+				47EA95891BEED9D500E8E53E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47EA95891BEED9D500E8E53E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47EA95881BEED9D500E8E53E /* TransBlitz.app */,
+				47EA959E1BEED9D500E8E53E /* TransBlitzTests.xctest */,
+				47EA95A91BEED9D500E8E53E /* TransBlitzUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47EA958A1BEED9D500E8E53E /* TransBlitz */ = {
+			isa = PBXGroup;
+			children = (
+				47EA958B1BEED9D500E8E53E /* AppDelegate.swift */,
+				47EA958D1BEED9D500E8E53E /* art.scnassets */,
+				47EA958F1BEED9D500E8E53E /* GameViewController.swift */,
+				47EA95911BEED9D500E8E53E /* Main.storyboard */,
+				47EA95941BEED9D500E8E53E /* Assets.xcassets */,
+				47EA95961BEED9D500E8E53E /* LaunchScreen.storyboard */,
+				47EA95991BEED9D500E8E53E /* Info.plist */,
+			);
+			path = TransBlitz;
+			sourceTree = "<group>";
+		};
+		47EA95A11BEED9D500E8E53E /* TransBlitzTests */ = {
+			isa = PBXGroup;
+			children = (
+				47EA95A21BEED9D500E8E53E /* TransBlitzTests.swift */,
+				47EA95A41BEED9D500E8E53E /* Info.plist */,
+			);
+			path = TransBlitzTests;
+			sourceTree = "<group>";
+		};
+		47EA95AC1BEED9D500E8E53E /* TransBlitzUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47EA95AD1BEED9D500E8E53E /* TransBlitzUITests.swift */,
+				47EA95AF1BEED9D500E8E53E /* Info.plist */,
+			);
+			path = TransBlitzUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47EA95871BEED9D500E8E53E /* TransBlitz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47EA95B21BEED9D500E8E53E /* Build configuration list for PBXNativeTarget "TransBlitz" */;
+			buildPhases = (
+				47EA95841BEED9D500E8E53E /* Sources */,
+				47EA95851BEED9D500E8E53E /* Frameworks */,
+				47EA95861BEED9D500E8E53E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TransBlitz;
+			productName = TransBlitz;
+			productReference = 47EA95881BEED9D500E8E53E /* TransBlitz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47EA959D1BEED9D500E8E53E /* TransBlitzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47EA95B51BEED9D500E8E53E /* Build configuration list for PBXNativeTarget "TransBlitzTests" */;
+			buildPhases = (
+				47EA959A1BEED9D500E8E53E /* Sources */,
+				47EA959B1BEED9D500E8E53E /* Frameworks */,
+				47EA959C1BEED9D500E8E53E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47EA95A01BEED9D500E8E53E /* PBXTargetDependency */,
+			);
+			name = TransBlitzTests;
+			productName = TransBlitzTests;
+			productReference = 47EA959E1BEED9D500E8E53E /* TransBlitzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47EA95A81BEED9D500E8E53E /* TransBlitzUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47EA95B81BEED9D500E8E53E /* Build configuration list for PBXNativeTarget "TransBlitzUITests" */;
+			buildPhases = (
+				47EA95A51BEED9D500E8E53E /* Sources */,
+				47EA95A61BEED9D500E8E53E /* Frameworks */,
+				47EA95A71BEED9D500E8E53E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47EA95AB1BEED9D500E8E53E /* PBXTargetDependency */,
+			);
+			name = TransBlitzUITests;
+			productName = TransBlitzUITests;
+			productReference = 47EA95A91BEED9D500E8E53E /* TransBlitzUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47EA95801BEED9D500E8E53E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Xavi Loinaz and William Park";
+				TargetAttributes = {
+					47EA95871BEED9D500E8E53E = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					47EA959D1BEED9D500E8E53E = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 47EA95871BEED9D500E8E53E;
+					};
+					47EA95A81BEED9D500E8E53E = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 47EA95871BEED9D500E8E53E;
+					};
+				};
+			};
+			buildConfigurationList = 47EA95831BEED9D500E8E53E /* Build configuration list for PBXProject "TransBlitz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47EA957F1BEED9D500E8E53E;
+			productRefGroup = 47EA95891BEED9D500E8E53E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47EA95871BEED9D500E8E53E /* TransBlitz */,
+				47EA959D1BEED9D500E8E53E /* TransBlitzTests */,
+				47EA95A81BEED9D500E8E53E /* TransBlitzUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47EA95861BEED9D500E8E53E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47EA958E1BEED9D500E8E53E /* art.scnassets in Resources */,
+				47EA95981BEED9D500E8E53E /* LaunchScreen.storyboard in Resources */,
+				47EA95951BEED9D500E8E53E /* Assets.xcassets in Resources */,
+				47EA95931BEED9D500E8E53E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47EA959C1BEED9D500E8E53E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47EA95A71BEED9D500E8E53E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47EA95841BEED9D500E8E53E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47EA95901BEED9D500E8E53E /* GameViewController.swift in Sources */,
+				47EA958C1BEED9D500E8E53E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47EA959A1BEED9D500E8E53E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47EA95A31BEED9D500E8E53E /* TransBlitzTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47EA95A51BEED9D500E8E53E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47EA95AE1BEED9D500E8E53E /* TransBlitzUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47EA95A01BEED9D500E8E53E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47EA95871BEED9D500E8E53E /* TransBlitz */;
+			targetProxy = 47EA959F1BEED9D500E8E53E /* PBXContainerItemProxy */;
+		};
+		47EA95AB1BEED9D500E8E53E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47EA95871BEED9D500E8E53E /* TransBlitz */;
+			targetProxy = 47EA95AA1BEED9D500E8E53E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47EA95911BEED9D500E8E53E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47EA95921BEED9D500E8E53E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47EA95961BEED9D500E8E53E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47EA95971BEED9D500E8E53E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47EA95B01BEED9D500E8E53E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47EA95B11BEED9D500E8E53E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47EA95B31BEED9D500E8E53E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TransBlitz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.xaviloinaz.TransBlitz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		47EA95B41BEED9D500E8E53E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TransBlitz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.xaviloinaz.TransBlitz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		47EA95B61BEED9D500E8E53E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = TransBlitzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.xaviloinaz.TransBlitzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TransBlitz.app/TransBlitz";
+			};
+			name = Debug;
+		};
+		47EA95B71BEED9D500E8E53E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TransBlitzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.xaviloinaz.TransBlitzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TransBlitz.app/TransBlitz";
+			};
+			name = Release;
+		};
+		47EA95B91BEED9D500E8E53E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = TransBlitzUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.xaviloinaz.TransBlitzUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TransBlitz;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		47EA95BA1BEED9D500E8E53E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TransBlitzUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.xaviloinaz.TransBlitzUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TransBlitz;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47EA95831BEED9D500E8E53E /* Build configuration list for PBXProject "TransBlitz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47EA95B01BEED9D500E8E53E /* Debug */,
+				47EA95B11BEED9D500E8E53E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47EA95B21BEED9D500E8E53E /* Build configuration list for PBXNativeTarget "TransBlitz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47EA95B31BEED9D500E8E53E /* Debug */,
+				47EA95B41BEED9D500E8E53E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		47EA95B51BEED9D500E8E53E /* Build configuration list for PBXNativeTarget "TransBlitzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47EA95B61BEED9D500E8E53E /* Debug */,
+				47EA95B71BEED9D500E8E53E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		47EA95B81BEED9D500E8E53E /* Build configuration list for PBXNativeTarget "TransBlitzUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47EA95B91BEED9D500E8E53E /* Debug */,
+				47EA95BA1BEED9D500E8E53E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47EA95801BEED9D500E8E53E /* Project object */;
+}
